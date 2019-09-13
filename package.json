@@ -1,0 +1,32 @@
+{
+  "name": "cypress-io-hangs-with-electron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"cypress/**/*.js\"",
+    "hangs-with-electron": "cypress run --browser electron",
+    "succeeds-with-chrome": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbcarey/cypress-io-hangs-with-electron.git"
+  },
+  "keywords": [],
+  "author": "Nicholas Carey <nicholas.carey@nordstrom.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbcarey/cypress-io-hangs-with-electron/issues"
+  },
+  "homepage": "https://github.com/nbcarey/cypress-io-hangs-with-electron#readme",
+  "dependencies": {
+    "cypress": "^3.4.1",
+    "url-toolkit": "^2.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-cypress": "^2.6.1"
+  }
+}

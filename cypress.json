@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://shop.nordstrom.com",
+    "defaultCommandTimeout": 6000,
+    "video": false,
+    "testFiles": "**/*.spec.js",
+    "chromeWebSecurity": false
+}

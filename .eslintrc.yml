@@ -1,0 +1,33 @@
+extends:
+  - eslint-config-google
+
+plugins:
+  - cypress
+
+parser        : espree
+parserOptions :
+  ecmaVersion : 2018
+  sourceType  : module
+
+
+  env:
+  commonjs        : true
+  es6             : true
+  mocha           : true
+  node            : true
+  cypress/globals : true
+
+rules: # {}
+  max-len: off
+  padded-blocks  : off
+  arrow-parens   : off
+  spaced-comment : off
+  key-spacing    :
+    - error
+    - align :
+        beforeColon : true
+        afterColon  : true
+        on          : colon
+        mode        : strict
+
+
